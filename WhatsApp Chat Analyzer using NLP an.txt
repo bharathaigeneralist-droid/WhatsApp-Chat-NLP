@@ -1,0 +1,62 @@
+WhatsApp Chat Analyzer using NLP and Data Visualization
+
+Developed by: BHARATH M, AI-Generalist, iPEC Solutions,Pvt.Ltd, Bangalore
+
+Project Type:** Chat Analyze
+
+📊 WhatsApp Chat Analysis using NLP
+📌 Overview
+
+This project analyzes WhatsApp chat data to extract meaningful insights using Natural Language Processing (NLP) and data visualization techniques. It transforms raw, unstructured chat text into structured data and generates insights about user behavior, sentiment, and communication patterns.
+
+🚀 Features
+📂 Chat Data Extraction
+Converts exported WhatsApp chat text into a structured dataset.
+🧹 Data Preprocessing
+Cleans text using regex, removes stopwords, and handles timestamps.
+😊 Sentiment Analysis
+Classifies messages into positive, negative, and neutral using NLP techniques.
+☁️ Word Cloud Visualization
+Displays frequently used words in a visually appealing format.
+😂 Emoji Analysis
+Identifies most commonly used emojis in conversations.
+📈 Activity Analysis
+Daily, weekly, and monthly timelines
+Most active users
+Message frequency trends
+👥 User Insights
+Compares participation and behavior among different users.
+🛠️ Technologies Used
+Programming Language: Python
+Libraries:
+Pandas, NumPy (Data Handling)
+Matplotlib, Seaborn (Visualization)
+NLTK (Natural Language Processing)
+WordCloud
+Regex
+📂 Project Workflow
+Import WhatsApp chat data
+Preprocess and clean text
+Extract features (time, user, message)
+Perform sentiment analysis
+Generate visualizations and insights
+💡 Use Cases
+Social media and communication analysis
+Understanding group dynamics
+Behavioral analytics
+Customer interaction insights (extendable to business chats)
+🌟 Key Highlights
+Works with real-world unstructured data
+Combines NLP + Data Visualization in one pipeline
+Provides actionable insights from everyday conversations
+Easily extendable for advanced analytics or dashboards
+📦 How to Run
+Export WhatsApp chat as .txt file
+Place the file in the project directory
+Run the Jupyter Notebook
+Execute cells step-by-step to view analysis
+📈 Future Improvements
+Build an interactive dashboard (Streamlit / Flask)
+Add advanced NLP models (transformers)
+Language detection and multilingual support
+Chat topic modeling
